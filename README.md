@@ -1,12 +1,13 @@
-# Pewlett-Hackard-Analysis
-
 ## Overview
 
 The purpose of this analysis is to look into the data of current employees that are reaching retirement age for the company Pewlett-Hackard. I looked at multiple datasets, created an ERD to link relationships between tables, and imported the data into our PostgreSQL server. Using our SQL database, I manipulated data using JOIN statements between tables to gather the appropriate data for analysis. 
+
 ---
 
 ## Entity Relationship Diagram (ERD)
+
 Here we can see the schema showing the relationship between tables
+
 ![](https://github.com/mooshak21/Pewlett-Hackard-Analysis/blob/main/Resources/EmployeeDB.png)
 --- 
 
