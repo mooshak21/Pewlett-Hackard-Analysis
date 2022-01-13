@@ -38,3 +38,9 @@ FROM employees as e
 WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 AND (de.to_date = '9999-01-01')
 ORDER BY e.emp_no;
+
+-- Total Count of employees in menorship prgram
+SELECT COUNT(m.emp_no), m.title
+FROM new_mentorship as m
+GROUP BY m.title
+ORDER BY COUNT (m.emp_no) DESC;
